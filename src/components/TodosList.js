@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import TodoItem from "./TodoItem";
+import TodoItem from './TodoItem';
 
 const TodosList = ({ todosProps, handleChange, delTodo }) => (
   <ul>

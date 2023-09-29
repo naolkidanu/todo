@@ -1,16 +1,16 @@
 /* eslint-disable react/prop-types */
-import styles from "../styles/TodoItem.module.css";
+// import styles from "../styles/TodoItem.module.css";
 
 const TodoItem = ({ itemProp, handleChange, delTodo }) => {
   const completedStyle = {
-    fontStyle: "italic",
-    color: "#595959",
+    fontStyle: 'italic',
+    color: '#595959',
     opacity: 0.4,
-    textDecoration: "line-through",
+    textDecoration: 'line-through',
   };
   return (
-    <li className={styles.item}>
-      <div className={styles.content}>
+    <li>
+      <div>
         <input
           type="checkbox"
           checked={itemProp.completed}
